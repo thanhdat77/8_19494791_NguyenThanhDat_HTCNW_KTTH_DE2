@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KT</title>
+    <link rel="stylesheet" href="./8_19494791_NguyenThanhDat_HTCNW_KTTH/CSS/bootstrap.min.css">
+    <script src="./8_19494791_NguyenThanhDat_HTCNW_KTTH/JS/jquery-3.6.0.min.js"></script>
+    <script src="./8_19494791_NguyenThanhDat_HTCNW_KTTH/JS/bootstrap.min.js"></script>
+    <script src="./8_19494791_NguyenThanhDat_HTCNW_KTTH/JS/index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row  bg-info">
+            <div class="col-sm-3">
+              <img src="./8_19494791_NguyenThanhDat_HTCNW_KTTH/IMG/LOGO.PNG" width="100%" height="170px"  alt="" srcset="">
+            </div>
+            <div class="col-sm-9 justify-content-left">
+              <h2 class="text-center">Bộ công thương trường</h2>
+              <h2  class="text-center" >Đại học công nghiệp TP Hồ Chí Minh</h2>
+              <h4 class="text-center " style="color: red;" >đổi mới, nâng tầm cao mới-năng động, hội nhập toàn cầu</h3>
+          </div>
+       </div>
+        <div class="col-xs-12">
+            <nav class="navbar navbar-expand-sm bg-light " >
+                <ul class="navbar nav" >
+                    <li class="navbar-item " style="margin-right: 25px;" >
+                        <a href="#" class="navbar-link" id="btn1">Đăng nhập</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link" id="btn2">Đăng kí</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-xs-12 text-center">
+            <h2 >Danh sách đăng kí làm căn cước sinh viên </h2>
+            <h2 >Trường Đại học Công nghiệp TP Hồ Chí Minh</h2>
+            <table class="table table" role="table" id="danhsach">
+                <tr>
+                    <th>STT</th>
+                    <th>Số CMND cũ</th>
+                    <th>Quê quán</th>
+                    <th>Email</th>
+                    <th>Số điện thoại </th>
+                    <th>Ảnh đại diện</th>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <footer>
+        <div class="col-xs-12">
+            <p style="text-align: center;">Mã số sinh viên:19494791 Nguyễn Thành Đạt</p>
+        </div>
+    </footer>
+    <div class="modal fade" role="dialog" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="text-left">Thông tin cá nhân</h2>
+
+                </div>
+                <div class="modal-body">
+                    <form role="form" class="form-horizontal">
+                        <label for="name" class="control-label col-xs-3">Ho Ten:</label>
+                        <div class="col-xs-9">
+                            <input type="text" name="" id="name" class="form-control">
+                            <span class="text-danger" id="spname">*</span>
+                        </div>
+                        <label for="number" class="control-label col-xs-3">Số CMND cũ</label>
+                        <div class="col-xs-9">
+                            <input type="number" name="" id="number" class="form-control">
+                            <span class="text-danger" id="spnumber" >*</span>
+                        </div>
+                        <label for="DC" class="control-label col-xs-3">Quê quán</label>
+                        <div class="col-xs-9">
+                            <input type="text" name="" id="DC" class="form-control">
+                            <span class="text-danger" id="spDC">*</span>
+                        </div>
+                        <label for="NTT" class="control-label col-xs-3">Email</label>
+                        <div class="col-xs-9">
+                            <input type="email" name="" id="NTT" class="form-control">
+                            <span class="text-danger" id="spNTT">*</span>
+                        </div>
+                        <label for="DT" class="control-label col-xs-3">Số điện thoại</label>
+                        <div class="col-xs-9">
+                            <input type="text" name="" id="DT" class="form-control">
+                            <span class="text-danger" id="spDT">*</span>
+                        </div>
+                        <label for="ADD" class="control-label col-xs-3">Ảnh đại diện</label>
+                        <div class="col-xs-9">
+                            <input type="file" name="" id="ADD" class="form-control">
+                            <span class="text-danger" id="spADD">*</span>
+                        </div>
+                        <button class="btn btn-success btn-group-justified" id="Save" type="button" style="color:white ;background-color: gold;">Luu</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
